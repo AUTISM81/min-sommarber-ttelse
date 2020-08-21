@@ -1,0 +1,25 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: rgb(43, 255, 0);
+}
+
+.main {
+  display: flex;
+}
+
+.right {
+  width: 50vw;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.left {
+  width: 50vw;
+  margin: 5%;
+  line-height: 150%;
+  font-size: large;
+}
+
+h1 {
+  text-align: center;
+}
