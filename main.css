@@ -1,6 +1,6 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
-  background-color: rgb(43, 255, 0);
+  background-color: rgb(209, 209, 209);
 }
 
 .main {
@@ -13,13 +13,67 @@ body {
   margin-top: 5%;
 }
 
+img {
+  -webkit-box-shadow: 0px 0px 131px 3px rgba(133, 242, 109, 1);
+  -moz-box-shadow: 0px 0px 131px 3px rgba(133, 242, 109, 1);
+  box-shadow: 0px 0px 131px 3px rgba(133, 242, 109, 1);
+}
+
 .left {
   width: 50vw;
   margin: 5%;
   line-height: 150%;
   font-size: large;
+  background-color: rgb(109, 204, 96);
+  border: black 2px;
+  border-radius: 20%;
+  -webkit-box-shadow: 0px 0px 131px 3px rgba(133, 242, 109, 1);
+  -moz-box-shadow: 0px 0px 131px 3px rgba(133, 242, 109, 1);
+  box-shadow: 0px 0px 131px 3px rgba(133, 242, 109, 1);
+}
+
+p {
+  margin: 5%;
 }
 
 h1 {
   text-align: center;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 48px;
+  outline: none;
+  padding: 0;
+  width: 48px;
+}
+
+.buttons {
+  margin-top: 25px;
+}
+
+#play {
+  background-image: url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg);
+}
+
+#play.played {
+  background-image: url(https://rpsthecoder.github.io/js-speech-synthesis/play1.svg);
+}
+
+#pause {
+  background-image: url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg);
+}
+
+#pause.paused {
+  background-image: url(https://rpsthecoder.github.io/js-speech-synthesis/pause1.svg);
+}
+
+#stop {
+  background-image: url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg);
+}
+
+#stop.stopped {
+  background-image: url(https://rpsthecoder.github.io/js-speech-synthesis/stop1.svg);
 }
